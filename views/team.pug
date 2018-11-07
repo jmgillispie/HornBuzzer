@@ -101,7 +101,7 @@ block scripts
 			console.log('Responding teams :', respondingTeams, team);
 			if(respondingTeams[0].team == team){
 				document.body.setAttribute('state', 'winner');
-				toast.innerHTML = 'You got this one !!<br>What\'s your answer ?';
+				toast.innerHTML = 'You got this!<br>What\'s your answer?';
 				return
 			}
 			document.body.setAttribute('state', 'loser');
